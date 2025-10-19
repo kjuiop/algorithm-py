@@ -69,3 +69,13 @@ words = ["apple", "banana", "cherry"]
 result = "-".join(words)
 print(result)
 ```
+
+<br />
+
+### list()
+
+문자열을 문자 단위로 나누고 싶을 때 사용된다.
+
+```python
+list("hello")  # ['h', 'e', 'l', 'l', 'o']
+```
