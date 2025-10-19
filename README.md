@@ -35,3 +35,37 @@ range(stop)
 range(start, stop)
 range(start, stop, step)
 ```
+
+
+<br />
+
+### swapcase()
+
+swapcase() 는 문자열의 대문자는 소문자로, 소문자는 대문자로 변경됨
+
+```python
+s = "aBcDeFg"
+print(s.swapcase())
+```
+
+
+<br />
+
+### 타입 변경
+
+- int : int(a)
+- string : str(a)
+
+<br />
+
+
+### join
+
+'구분자'.join(문자열리스트)
+
+
+```python
+words = ["apple", "banana", "cherry"]
+result = "-".join(words)
+print(result)
+```
